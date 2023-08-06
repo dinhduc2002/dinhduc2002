@@ -1,0 +1,190 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  background-color: black;
+}
+.container{
+width: 1440px;
+margin: 0 auto;
+background-color: rgba(236, 236, 236, 1);
+}
+header{
+width: 1440px;
+height: 100px;
+background-color: rgba(48, 48, 48, 1);
+}
+header img {
+padding-left: 130px;
+padding-top: 20px;
+width: 178px;
+height: 62px;
+}
+header .menu h1{
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+color:  rgba(255, 255, 255, 1);
+}header .menu{
+  position: relative;
+  left: 900px;
+  bottom: 38px;
+  width: 386px;
+  height: 14px;
+}
+grid{
+  display: grid;
+  grid-template-columns: 500px 500px;
+}
+.grid-1{
+display: grid;
+position: relative;
+width: 540px;
+height: 470px;
+top: 170px;
+left: 165px;  
+background-color: rgba(255, 255, 255, 1);
+}
+.grid-2{
+display: grid;
+position: relative;
+width: 540px;
+height: 900px;
+bottom: 300px;
+left: 730px;
+background-color: rgba(255, 255, 255, 1);
+}
+.grid-1 h1{
+position: relative;
+width: 232px;
+height: 48px;
+top: 30px;
+left:30px;
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.noidung{
+position: relative;
+width: 170px;
+height: 240px;
+left: 31px;
+
+}
+.noidung h3{
+position: relative;
+font-size: 24px;
+letter-spacing: 0.03em;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 3%;
+top: 50px;
+}
+.noidung h2{
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 3%;
+  top: 103px;
+  }
+.giaBan{
+position: relative;
+width: 170px;
+height: 240px;
+left: 310px;
+bottom: 238px;
+}
+.giaBan h3{
+position: relative;
+font-size: 24px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 3%;
+top: 50px;
+}
+.giaBan img {
+  position: relative;
+  top : 70px;
+  right: 300px;
+}
+.giaBan h2{
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 3%;
+  top: 80px;
+  }
+
+.grid-2 h1{
+position: relative;
+width: 283px;
+height: 48px;
+left:30px;
+top: 30px;
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.02em;
+text-align: left; 
+}
+input{
+border: white;
+border-bottom:1px solid rgba(51, 51, 51, 1);
+margin: 15px;
+width: 476px;
+height: 48px;
+}
+label{
+  position: relative;
+  left: 40px;
+  font-size: 18px;
+}
+select{
+  position: relative;
+  right: 40px;
+}
+.input{
+  margin-top: 90px;
+
+}
+.input select{
+  border: white;
+}
+:placeholder-shown{
+  font-size: 18px;
+}
+.input input{
+  margin: 10px;
+}
+footer{
+width: 1440px;
+height: 700px;
+top: 1296px;
+background-color: rgba(218, 94, 66, 1)
+}
+.logo{
+  position: relative;
+  left: 240px;
+  top: 40px;
+}
+.chuthich{
+  position: relative;
+  top: 200px;
+  left: 30px;
+}
+.chuthich{
+  font-size: 16px;
+}
+table{
+  width: -webkit-fill-available;
+}
